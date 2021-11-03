@@ -1,0 +1,38 @@
+.season_newcolection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.season {
+  width: 54.2%;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.season_name {
+  margin-top: 93px;
+  margin-bottom: 50px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.hr_season {
+  background-color: #ffffff;
+  width: 120px;
+  margin: 0 0 50px 0;
+  opacity: 1;
+}
+
+@import "/work/scss/utils/_clockstyle.scss";

@@ -1,0 +1,13 @@
+.portrain_collection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.portrait {
+  width: 880px;
+  height: 600px;
+  background: url(/images/portrait.png);
+  background-position: center;
+  background-size: cover;
+}
