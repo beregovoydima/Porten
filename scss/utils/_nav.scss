@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav_item_ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.nav_item {
+  padding: 31px 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.nav_item1 {
+  padding-left: 53px;
+  cursor: pointer;
+}
+.nav_item2 {
+  padding-left: 53px;
+  cursor: pointer;
+}
+.nav_item_text {
+  text-decoration: none;
+
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+  cursor: pointer;
+}
+.nav_item_text:hover {
+  color: #fff;
+  background-color: #1f1f1f;
+}
+
+.nav_item:hover {
+  background-color: #1f1f1f;
+}
