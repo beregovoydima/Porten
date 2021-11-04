@@ -18,7 +18,7 @@ const swiper = new Swiper(".swiper", {
 $(document).ready(function () {
   $(".burger_menu").click(function (event) {
     $(
-      ".burger_menu,.header,.nav,.nav_item_ul,.nav_item1,.nav_item2,.body,.nav_item_text,.nav_item"
+      ".burger_menu,.header,.nav,.nav_item_ul,.nav_item1,.nav_item2,body,.nav_item_text,.nav_item"
     ).toggleClass("change");
   });
 });
