@@ -1006,7 +1006,10 @@ h6 {
     background-position: top;
   }
   .newcolectiontext {
-    margin-top: 150px;
+    margin-top: 110px;
+  }
+  .hr_newcolection {
+    margin-bottom: 20px;
   }
 }
 
